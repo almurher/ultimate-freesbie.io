@@ -1,0 +1,101 @@
+header {
+  box-sizing: border-box;
+  width: 960px;
+  height: 170px;
+  margin: 0 auto;
+  background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+  background-repeat: no-repeat;
+}
+
+header h1{
+  text-align: center;
+  margin: 25px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+header nav {
+  text-align: center;
+}
+
+header a{
+  padding: 12px 50px;
+  margin: 20px;
+  font-size: 22px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  color: #000;
+  border-radius: 5px;
+}
+
+header a:hover {
+  background: #fff;
+}
+
+main {
+  box-sizing: border-box;
+  width: 960px;
+  height: 770px;
+  margin: 0 auto;
+}
+aside {
+  box-sizing: border-box;
+  width: 25%;
+  height: 100%;
+  float: left;
+  background: #A2C998;
+}
+
+.left img {
+  width: 85%;
+  border: 2px #000 solid;
+  margin: 20px 10px 0 15px;
+  
+}
+
+.right {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 75%;
+  padding: 20px;
+}
+
+.right h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.right p {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.right a{
+  text-decoration: none;
+  font-style: italic;
+  color: #000;
+  font-weight: 600;
+}
+
+.right a:hover {
+  color: #71757A;
+}
+.right th {
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 700;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+.right td {
+  font-size: 16px;
+  text-align: justify;
+  padding-right: 30px;
+}
+h1, h2, p, a, th, td {
+  font-family: "Times New Roman", sans-serif;
+}
